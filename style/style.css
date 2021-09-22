@@ -56,7 +56,6 @@ body {
   margin: 0 auto;
 }
 .main {
-  height: 55%;
   overflow-y: auto;
   flex-grow: 1;
 }
