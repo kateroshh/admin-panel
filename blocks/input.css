@@ -1,0 +1,43 @@
+.input-wrapper{
+  width: 350px;
+  height: 400px;
+  margin: 0 auto;
+  border: 1px dashed #8055FF;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.input{
+  display: flex;
+  flex-direction: column;
+}
+.input__label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.input__item {
+  width: 256px;
+  border: 1px solid #459DF5;
+  color: #000;
+  border-radius: 4px;
+  padding: 0.5rem;
+  font-size: 13px;
+  outline-width: 0;
+}
+.input__item::placeholder{
+  color: #459DF5;
+}
+.input__item-error{
+  border: 1px solid #F53152;
+  background: url('../icons/x-medium.svg') no-repeat right;
+  /* background-size: 9px 9px; */
+  /* background: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg"viewBox="0 0 16 16"fill="none"stroke="#8055FF"><path d="M12.5 3.5L3.5 12.5M3.5 3.5L12.5 12.5"fill="none"/></svg>'); */
+}
+.input__item-lock {
+  border: 1px solid #F53152;
+  background: url('../icons/locked.svg') no-repeat right;
+  background-color: #BAD8F5;
+  border: 1px solid #459DF5;
+  
+}
