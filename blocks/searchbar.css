@@ -1,9 +1,9 @@
 :root{
-  --int_br: #459DF5;
-  --int_plhol_cl: #BAD8F5;
+  --input-color-border: #459DF5;
+  --input-color-placeholder: #BAD8F5;
 }
 /* временная обертка  */
-.wrapper {
+.searchbar-wrapper {
   width: 350px;
   height: 200px;
   margin: 0 auto;
@@ -20,33 +20,50 @@
   margin-bottom: 0.5rem;
 }
 
-.input-items {
+.input {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
-.input-items__item {
+.input__item {
   width: 256px;
   height: 2rem;
-  border: 1px solid var(--int_br);
+  border: 1px solid var(--input-color-border);
   color: var(--int_cl);
   border-radius: 4px;
   padding: 0.5rem 1.5rem 0.5rem 2rem;
   font-size: 13px;
   outline-width: 0;
 }
-
-.input-items__item::placeholder {
-  color: var(--int_plhol_cl);
+.input__item::placeholder {
+  color: var(--input-color-placeholder);
 }
-.input-items__img{
+.input__img{
   width: 1rem;
   height: 1rem;
   position: absolute;
   top: 0.5rem;
 }
-.input-items__img-search {
+.input__img-search {
   left: 0.5rem;
 }
-.input-items__img-error{
-  right: 0.5rem;
+.button{
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: 1rem;
+  height: 1rem;
+  padding: 0;
+  position: absolute;
+  margin-right: 0.3rem;
+}
+.button-hidden{
+  display: none;
+}
+.buttom__img{
+    width: 1rem;
+    height: 1rem;
 }
