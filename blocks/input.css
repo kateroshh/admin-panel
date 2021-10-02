@@ -1,9 +1,9 @@
 :root{
-  --int_cl:#000;
-  --int_br:#459DF5;
-  --int_plhol_cl:#459DF5;
-  --int_error_br:#F53152;
-  --int_lock_bg:#BAD8F5;
+  --input-color-font:#000;
+  --input-color-border:#459DF5;
+  --input-color-placeholder:#459DF5;
+  --input-color-border-error:#F53152;
+  --input-background-color-lock:#BAD8F5;
 }
 /* временная обертка  */
 .wrapper{
@@ -29,15 +29,15 @@
 .input-items__item {
   width: 256px;
   height: 2rem;
-  border: 1px solid var(--int_br);
-  color: var(--int_cl);
+  border: 1px solid var(--input-color-border);
+  color: var(--input-color-font);
   border-radius: 4px;
   padding: 0.5rem 1.5rem 0.5rem 0.5rem;
   font-size: 13px;
   outline-width: 0;
 }
 .input-items__item::placeholder {
-  color: var(--int_plhol_cl);
+  color: var(--input-color-placeholder);
 }
 .input-items__img {
   width: 1rem;
@@ -47,8 +47,8 @@
   right: 0.5rem;
 }
 .input-items__item-error {
-  border: 1px solid var(--int_error_br);
+  border: 1px solid var(--input-color-border-error);
 }
 .input-items__item-lock{
-  background-color: var(--int_lock_bg);
+  background-color: var(--input-background-color-lock);
 }
