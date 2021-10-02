@@ -1,0 +1,53 @@
+:root{
+  --wrapper-color-border: #8055FF;
+  --input-background-color: #fff;
+  --input-color-border: #BAD8F5;
+  --input-background-color-checked: #459DF5;
+  --input-color-border-checked: #459DF5;
+}
+
+body{
+  font-size: 16px;
+}
+/* временная обертка  */
+.checkbox-wrapper {
+  width: 104px;
+  height: 64px;
+  margin: 0 auto;
+  border: 1px dashed var(--wrapper-color-border);
+  border-radius: 5px;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* временная обертка  */
+
+
+.checkbox{
+  margin: 0.25rem;
+}
+.chechbox__items {
+  position: relative;
+  display: flex;
+}
+.checkbox__input{
+  appearance: none;
+  width: 1rem;
+  height: 1rem;
+  background-color: var(--input-background-color);
+  border: 1px solid var(--input-color-border);
+  border-radius: 2px;
+  margin: 0;
+  padding: 0;
+}
+.checkbox__input:checked{
+  background-color: var(--input-background-color-checked);
+  border: 1px solid var(--input-color-border-checked);
+}
+.checkbox__img{
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  cursor: pointer;
+}
