@@ -1,3 +1,7 @@
+:root{
+  --background-color-dark: #8055FF;
+  --background-color-light: #A8A8FF;
+}
 body {
   color: #000;
   font-size: 16px;
@@ -7,69 +11,64 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  max-width: 1500px;
-  margin: 0 auto;
+  min-width: 28rem;
+  padding: 2rem 3rem 0 3rem;
 }
-.header {
-  height: 236px;
-}
-.header-top__text {
-  background-color: #A8A8FF;
+.title__text {
+  background-color: var(--background-color-light);
   margin-bottom: 2rem;
-  margin-top: 2rem;
+  font-weight: bold;
+  font-size: 26px;
+  color: var(--background-color-dark);
 }
-.header-search {
+.filter {
   margin-bottom: 2rem;
   padding: 0.5rem;
-  border: 2px solid #A8A8FF;
+  border: 2px solid var(--background-color-light);
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.header-search__search {
+.filter__search {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.header-search__input {
+.filter__input {
   width: 256px;
   height: 32px;
-  background-color: #8055FF;
+  background-color: var(--background-color-dark);
   margin-right: 0.5rem;
 }
-.header-search__link {
+.filter__link {
   width: 32px;
   height: 32px;
-  background-color: #8055FF;
+  background-color: var(--background-color-dark);
 }
-.header-search__load {
+.filter__load {
   width: 32px;
   height: 32px;
-  background-color: #8055FF;
-}
-.header-table {
-  background-color:#8055FF;
-  height: 48px;
-}
-.container-main {
-  max-width: 1488px;
-  margin: 0 auto;
+  background-color: var(--background-color-dark);
 }
 .main {
-  overflow-y: auto;
-  flex-grow: 1;
+  flex: 1 0 auto;
 }
-.main-items{
-  background-color: #A8A8FF;
+.table{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  border: 2px solid var(--background-color-dark);
 }
-.main-items__item{
-  height: 40px;
-  border: 1px solid rgb(220, 220, 220);
+.table__header {
+  background-color: var(--background-color-dark);
+  height: 3rem;
 }
-.footer {
-  height: 48px;
+.table__body {
+  background-color: var(--background-color-light);
+  flex: 1 0 auto;
 }
-.footer-table{
-  height: 48px;
-  background-color:#8055FF;
+.table__footer {
+  background-color: var(--background-color-dark);
+  height: 3rem;
 }
