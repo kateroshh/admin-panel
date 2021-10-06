@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style/input.css">
+  <link rel="stylesheet" href="../style/checkbox.css">
+  <link rel="stylesheet" href="../style/radio.css">
+  <link rel="stylesheet" href="../style/searchbar.css">
+  <link rel="stylesheet" href="../style/ui-kit.css">
+  <link rel="stylesheet" href="../style/reset.css">
+  <title>Ui-Kit</title>
+</head>
+<body>
+  <div class="wrapper">
+    <!-- Первый элемент input -->
+    <div class="wrapper-input">
+      <div class="input">
+        <label class="input__label">Дата и время заказа</label>
+        <div class="input-items">
+          <input class="input-items__item" type="text" placeholder="Введите">
+        </div>
+      </div>
+      <div class="input">
+        <label class="input__label">Дата и время заказа</label>
+        <div class="input-items">
+          <input class="input-items__item input-items__item-error" type="text" placeholder="Введите" value="16.12.2021">
+          <a class="input-items__link" href="#">
+            <svg class="input-items__img input-items__img-error" viewBox="0 0 16 16" fill="none" stroke="#BAD8F5">
+            <path d="M12.5 3.5L3.5 12.5M3.5 3.5L12.5 12.5" fill="none"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="input">
+        <label class="input__label">Дата и время заказа</label>
+        <div class="input-items">
+          <input class="input-items__item input-items__item-lock" type="text" placeholder="Введите" value="16.12.2021">
+          <a class="input-items__link" href="#">
+            <svg class="input-items__img input-items__img-lock" viewBox="0 0 16 16" fill="#000" stroke="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M4 5C4 2.79086 5.79086 1 8 1C10.2091 1 12 2.79086 12 5V7C13.1046 7 14 7.89543 14 9V13C14 14.1046 13.1046 15 12 15H4C2.89543 15 2 14.1046 2 13V9C2 7.89543 2.89543 7 4 7V5ZM10 5V7H6V5C6 3.89543 6.89543 3 8 3C9.10457 3 10 3.89543 10 5Z" stroke="none"/><path d="M12 5C12 2.8 10.2 1 8 1C5.8 1 4 2.8 4 5L4 9H6V5C6 3.75 7 3 8 3C9 3 10 3.75 10 5V9H12V5Z" stroke="none"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Первый элемент input -->
+    
+    <!-- Второй элемент searchbar -->
+    <div class="searchbar-wrapper">
+      <div class="input-searchbar">
+        <input class="input__item" type="text" placeholder="Номер заказа или ФИО">
+        <svg class="input__img input__img-search" viewBox="0 0 16 16" fill="none" stroke="#459DF5">
+        <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
+        </svg>
+        <button class="button button-hidden">
+          <svg class="buttom__img" viewBox="0 0 16 16" fill="none" stroke="#BAD8F5">
+          <path d="M12.5 3.5L3.5 12.5M3.5 3.5L12.5 12.5" fill="none"/></svg> 
+        </button>
+      </div>
+      <div class="input-searchbar">
+        <input class="input__item" type="text" placeholder="Номер заказа или ФИО" value="50744">
+        <svg class="input__img input__img-search" viewBox="0 0 16 16" fill="none" stroke="#459DF5">
+        <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
+        </svg>
+        <button class="button">
+          <svg class="buttom__img" viewBox="0 0 16 16" fill="none" stroke="#BAD8F5">
+          <path d="M12.5 3.5L3.5 12.5M3.5 3.5L12.5 12.5" fill="none"/></svg> 
+        </button>
+      </div>
+    </div>
+    <!-- Конец Второй элемент searchbar -->
+    <!-- Начало Третий элемент checkbox -->
+    <div class="checkbox-wrapper">
+      <div class="checkbox">
+        <label class="checkbox__lable">
+          <div class="chechbox__items">
+            <input class="checkbox__input" type="checkbox">
+            <svg class="checkbox__img" viewBox="0 0 16 16" fill="#FFF" stroke="none">
+            <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
+            </svg>
+          </div>
+        </label>
+      </div>
+      <div class="checkbox">
+        <label class="checkbox__lable">
+          <div class="chechbox__items">
+            <input class="checkbox__input" type="checkbox" checked>
+            <svg class="checkbox__img" viewBox="0 0 16 16" fill="#FFF" stroke="none">
+            <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
+            </svg>
+          </div>
+        </label>
+      </div>
+  </div>
+  <!-- Конец Третий элемент checkbox -->
+  <!-- Начало Четвертый элемент radio -->
+  <div class="radio-wrapper">
+    <div class="radio">
+      <div class="radio__items">
+        <input class="radio__item" type="radio" name="radio" value="1">
+        <input class="radio__item" type="radio" name="radio" value="2" checked>
+        </svg>
+      </div>
+  </div>
+
+  </div>
+
+
+
+</body>
+</html>
