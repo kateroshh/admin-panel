@@ -27,7 +27,7 @@ body{
 .checkbox{
   margin: 0.25rem;
 }
-.chechbox__items {
+.chechbox__item {
   position: relative;
   display: flex;
 }
