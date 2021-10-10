@@ -7,10 +7,12 @@ body {
 }
 .wrapper{
   display: flex;
+  flex-wrap: wrap;
 }
 .wrapper-input,
 .searchbar-wrapper,
 .radio-wrapper,
-.checkbox-wrapper {
+.checkbox-wrapper,
+.button-wrapper {
   margin: 30px;
 }

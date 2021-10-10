@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="../style/checkbox.css">
   <link rel="stylesheet" href="../style/radio.css">
   <link rel="stylesheet" href="../style/searchbar.css">
+  <link rel="stylesheet" href="../style/button.css">
   <link rel="stylesheet" href="../style/ui-kit.css">
   <link rel="stylesheet" href="../style/reset.css">
   <title>Ui-Kit</title>
@@ -51,8 +52,8 @@
         <svg class="input__img input__img-search" viewBox="0 0 16 16" fill="none" stroke="#459DF5">
         <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
         </svg>
-        <button class="button button-hidden">
-          <svg class="buttom__img" viewBox="0 0 16 16" fill="none" stroke="#BAD8F5">
+        <button class="button-search button-search_hidden">
+          <svg class="button-search__img" viewBox="0 0 16 16" fill="none" stroke="#BAD8F5">
           <path d="M12.5 3.5L3.5 12.5M3.5 3.5L12.5 12.5" fill="none"/></svg> 
         </button>
       </div>
@@ -61,8 +62,8 @@
         <svg class="input__img input__img-search" viewBox="0 0 16 16" fill="none" stroke="#459DF5">
         <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
         </svg>
-        <button class="button">
-          <svg class="buttom__img" viewBox="0 0 16 16" fill="none" stroke="#BAD8F5">
+        <button class="button-search">
+          <svg class="button-search__img" viewBox="0 0 16 16" fill="none" stroke="#BAD8F5">
           <path d="M12.5 3.5L3.5 12.5M3.5 3.5L12.5 12.5" fill="none"/></svg> 
         </button>
       </div>
@@ -100,11 +101,128 @@
         <input class="radio__item" type="radio" name="radio" value="2" checked>
         </svg>
       </div>
+    </div>
   </div>
+  <!-- Конец Четвертый элемент radio -->
+  <!-- Начало Пятый элемент button -->
+  <div class="button-wrapper">
+    <div class="button-column">
+      <!-- Buttons background full huge -->
+      <div class="button-block">
+        <div class="button">
+          <button class="button__item button_full-huge">
+            <svg class="button__img" viewBox="0 0 16 16" fill="#FFF" stroke="none">
+            <path d="M12 4H4V5.5L7 8.5V12L9 13V8.5L12 5.5V4Z" stroke="none"/>
+            </svg>
+            <div class="button__text">Text hear</div>
+          </button>
+        </div>
+        <div class="button">
+          <button class="button__item button_full-huge">
+            <div class="button__text">Text hear</div>
+          </button>
+        </div>
+        <div class="button">
+          <button class="button__item button_full-huge-img">
+            <svg class="button__img" viewBox="0 0 16 16" fill="#FFF" stroke="none">
+            <path d="M12 4H4V5.5L7 8.5V12L9 13V8.5L12 5.5V4Z" stroke="none"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <!-- Buttons background full small -->
+      <div class="button-block">
+        <div class="button">
+          <button class="button__item button_full-small">
+            <svg class="button__img" viewBox="0 0 16 16" fill="#FFF" stroke="none">
+            <path d="M12 4H4V5.5L7 8.5V12L9 13V8.5L12 5.5V4Z" stroke="none"/>
+            </svg>
+            <div class="button__text">Text hear</div>
+          </button>
+        </div>
+        <div class="button">
+          <button class="button__item button_full-small">
+            <div class="button__text">Text hear</div>
+          </button>
+        </div>
+        <div class="button">
+          <button class="button__item button_full-smale-img">
+            <svg class="button__img" viewBox="0 0 16 16" fill="#FFF" stroke="none">
+            <path d="M12 4H4V5.5L7 8.5V12L9 13V8.5L12 5.5V4Z" stroke="none"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="button-column">
+      <!-- Buttons background empty small -->
+      <div class="button-block">
+        <div class="button">
+          <button class="button__item button_empty-huge">
+            <svg class="button__img" viewBox="0 0 16 16" fill="#459DF5" stroke="none">
+            <path d="M12 4H4V5.5L7 8.5V12L9 13V8.5L12 5.5V4Z" stroke="none"/>
+            </svg>
+            <div class="button__text">Text hear</div>
+          </button>
+        </div>
+        <div class="button">
+          <button class="button__item button_empty-huge">
+            <div class="button__text">Text hear</div>
+          </button>
+        </div>
+        <div class="button">
+          <button class="button__item button_empty-huge-img">
+            <svg class="button__img" viewBox="0 0 16 16" fill="#459DF5" stroke="none">
+            <path d="M12 4H4V5.5L7 8.5V12L9 13V8.5L12 5.5V4Z" stroke="none"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <!-- Buttons background empty small -->
+      <div class="button-block">
+        <div class="button">
+          <button class="button__item button_empty-small">
+            <svg class="button__img" viewBox="0 0 16 16" fill="#459DF5" stroke="none">
+            <path d="M12 4H4V5.5L7 8.5V12L9 13V8.5L12 5.5V4Z" stroke="none"/>
+            </svg>
+            <div class="button__text">Text hear</div>
+          </button>
+        </div>
+        <div class="button">
+          <button class="button__item button_empty-small">
+            <div class="button__text">Text hear</div>
+          </button>
+        </div>
+        <div class="button">
+          <button class="button__item button_empty-small-img">
+            <svg class="button__img" viewBox="0 0 16 16" fill="#459DF5" stroke="none">
+            <path d="M12 4H4V5.5L7 8.5V12L9 13V8.5L12 5.5V4Z" stroke="none"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="button-column button-column_last">
+      <!-- Buttons background empty text -->
+      <div class="button-block button-block_last">
+        <div class="button">
+          <button class="button__item button_empty-huge-text">
+            <svg class="button__img" viewBox="0 0 16 16" fill="#000" stroke="none">
+            <path d="M12 4H4V5.5L7 8.5V12L9 13V8.5L12 5.5V4Z" stroke="none"/>
+            </svg>
+            <div class="button__text">Text hear</div>
+          </button>
+        </div>
+        <div class="button">
+          <button class="button__item button_empty-huge-text">
+            <div class="button__text">Text hear</div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Конец Пятый элемент button -->
 
   </div>
-
-
-
 </body>
 </html>
