@@ -13,6 +13,7 @@ body {
 .searchbar-wrapper,
 .radio-wrapper,
 .checkbox-wrapper,
-.button-wrapper {
+.button-wrapper,
+.dropdowns-wrapper {
   margin: 30px;
 }
