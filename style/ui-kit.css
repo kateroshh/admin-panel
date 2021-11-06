@@ -1,0 +1,19 @@
+:root{
+  --background-body: #E5E5E5;
+  --wrapper-font-color: #8055FF;
+}
+body {
+  background-color: var(--background-body);
+}
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrapper-input,
+.searchbar-wrapper,
+.radio-wrapper,
+.checkbox-wrapper,
+.button-wrapper,
+.dropdowns-wrapper {
+  margin: 30px;
+}
